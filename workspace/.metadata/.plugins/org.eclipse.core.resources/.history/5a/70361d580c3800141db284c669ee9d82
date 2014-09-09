@@ -1,0 +1,38 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bestelling {
+	private Klant klant;
+	private List<Product> Assortiment;
+
+	public void Bestelling() {
+
+		// TODO Auto-generated method stub
+		klant = new Klant("Henk", 18);
+		Assortiment = new ArrayList<>();
+		Assortiment.add(new Product("Java boek", 144.88));
+		Assortiment.add(new Product("Stinkbom", 50.22));
+		Assortiment.add(new Product("Avans gebouw", 400000.00));
+		Assortiment.add(new Product("Smartboard", 299.99));
+	}
+
+	public void print() {
+		System.out.println("Klantnaam: " + klant.naam);
+		System.out.println("Klantnummer: " + klant.nummer);
+		System.out.println();
+		System.out.println("Orderinformatie:");
+		System.out.println();
+		double totaal = 0;
+		for (Product product : Assortiment){
+			
+		System.out.println("Productnaam: " + product.toString());
+		System.out.println("Prijs: " + product.getPrijs());
+		System.out.println();
+		totaal = totaal + product.getPrijs();
+		
+		}
+		System.out.println("Totaalbedrag: " + totaal);
+	}
+}

@@ -1,0 +1,11 @@
+package main;
+
+public class Bestelling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Klant Kcreate = new Klant("Henk", 16);
+Product Pcreate = new Product("Een stinkbom", 2.98);
+	}
+	
+}
