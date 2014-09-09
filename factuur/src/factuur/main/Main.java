@@ -90,7 +90,7 @@ System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
-System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
+System.out.println("Gregor pro in Git");System.out.println("Mark is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
 System.out.println("Gregor pro in Git");System.out.println("Gregor is gek");
